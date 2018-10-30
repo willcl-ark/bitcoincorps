@@ -1,5 +1,4 @@
 import queue
-import random
 import socket
 import sqlite3
 import sys
@@ -292,7 +291,9 @@ def next_addresses(db=db):
 
 if __name__ == "__main__":
     if sys.argv[1] == "crawl":
+        #create a SQLite database    
         recreate_tables()
+        # add these addresses to the database 
         addresses = [
             Address(None, "91.221.70.137", 8333, None),
             Address(None, "92.255.176.109", 8333, None),
