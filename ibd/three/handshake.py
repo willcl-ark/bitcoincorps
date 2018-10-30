@@ -22,7 +22,7 @@ def handshake(address, log=True):
         addr_from=my_address,
         addr_recv=peer_address,
         nonce=73948692739875,
-        user_agent=b"bitcoin-corps",
+        user_agent=b"Satoshi:0.17",
         start_height=0,
         relay=1,
     )
