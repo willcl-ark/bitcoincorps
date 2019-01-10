@@ -4,6 +4,8 @@ import sqlite3
 import sys
 import threading
 import time
+# I needed to import this to access the random() function
+import random
 
 from tabulate import tabulate
 
@@ -298,9 +300,9 @@ if __name__ == "__main__":
             Address(None, "91.221.70.137", 8333, None),
             Address(None, "92.255.176.109", 8333, None),
             Address(None, "94.199.178.17", 8333, None),
-            Address(None, "213.250.21.112", 8333, None),
+            Address(None, "77.98.116.8", 8333, None),
         ]
         insert_addresses(addresses)
-        Crawler(500).crawl()
+        Crawler(100).crawl()
     if sys.argv[1] == "monitor":
         report()

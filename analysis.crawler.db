@@ -1,0 +1,2 @@
+select count(distinct(address_id)) from connections
+where error is null

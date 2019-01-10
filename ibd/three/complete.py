@@ -306,11 +306,13 @@ class VersionMessage:
         services = read_services(stream)
         time = read_time(stream)
         addr_recv = Address.from_stream(stream, version_msg=True)
-        addr_from = Address.from_stream(stream, version_msg=True)
-        nonce = read_int(stream, 8)
-        user_agent = read_var_str(stream)
-        start_height = read_int(stream, 4)
-        relay = read_bool(stream)
+        if version >= 106:
+                addr_from = Address.from_stream(stream, version_msg=True)
+                nonce = read_int(stream, 8)
+                user_agent = read_var_str(stream)
+                start_height = read_int(stream, 4)
+                if version >= 70001:
+                        relay = read_bool(stream)
         return cls(
             version,
             services,
