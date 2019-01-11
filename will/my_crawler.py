@@ -22,7 +22,7 @@ class Serializable:
     # Base class for Serializing Messages
 
     @staticmethod
-    def _to_bytes(msg, length=0, byteorder='little'):
+    def _serialize(msg, length=0, byteorder='little'):
         if isinstance(msg, bytes):
             return msg
         elif isinstance(msg, int):  # or isinstance(msg, bool):
@@ -33,7 +33,7 @@ class Serializable:
             return msg.encode(encoding='UTF-8', errors='strict')
         # TODO: add float support?
         else:
-            return print("message of type %s not supported by _to_bytes()" % type(msg))
+            return print("message of type %s not supported by _serialize()" % type(msg))
 
 
 class Message(Serializable):
@@ -52,7 +52,7 @@ class Message(Serializable):
 
     def serialize_payload(self):
         if not isinstance(self.payload, bytes):
-            self.payload = super()._to_bytes(self.payload)
+            self.payload = super()._serialize(self.payload)
         self.length = struct.pack('<I', len(self.payload))
 
         double_hash = hashlib.sha256(hashlib.sha256(self.payload).digest()).digest()
@@ -62,7 +62,7 @@ class Message(Serializable):
         self.serialize_payload()
 
         # serialize and pack command message
-        b = super()._to_bytes(self.command)
+        b = super()._serialize(self.command)
         self.command_bytes = struct.pack('<12s', b)
 
         # Create the whole header
@@ -92,7 +92,7 @@ class Message(Serializable):
 
     @staticmethod
     def to_var_str(x):
-        s = Serializable._to_bytes(x)
+        s = Serializable._serialize(x)
         l = len(s)
         ss = struct.pack('<%ss' % l, s)
         return Message.to_var_int(l) + ss
