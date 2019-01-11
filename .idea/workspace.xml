@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b64218ef-cf83-4aea-84e6-99d19c4f26aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/will/chainparams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/will/miniupnpc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/will/my_crawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/will/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/will/test2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/will/tester.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../buidl_bitcoin/digital-cash/pyMsgSpy/p2p_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0. Introduction to Jupyter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/0. Introduction to Jupyter.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. Homework.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1. Homework.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2. Reading Version Messages.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2. Reading Version Messages.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Executing the Version Handshake.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3. Executing the Version Handshake.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Crawling The Bitcoin Network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4. Crawling The Bitcoin Network.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5. Downloading Blocks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/5. Downloading Blocks.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibd/four/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/ibd/four/crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibd/three/complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/ibd/three/complete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miniupnp/miniupnpc/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/miniupnp/miniupnpc/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/will/test2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/will/test_workbook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/will/test3.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/will/tester.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../buidl_bitcoin/digital-cash/pyMsgSpy/chainparams.py" beforeDir="false" afterPath="$PROJECT_DIR$/../buidl_bitcoin/digital-cash/pyMsgSpy/chainparams.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/bitcoincorps$bitcoin_corps.coverage" NAME="bitcoin-corps Coverage Results" MODIFIED="1547152557526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/bitcoincorps$bitcoincorps.coverage" NAME="bitcoincorps Coverage Results" MODIFIED="1547155897777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/bitcoincorps$bitcoincorps.coverage" NAME="bitcoincorps Coverage Results" MODIFIED="1547217330764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -51,44 +38,47 @@
     <session id="-1205634847">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="db" value="2" />
           <entry key="ini" value="2" />
-          <entry key="ipynb" value="17" />
-          <entry key="py" value="27" />
+          <entry key="ipynb" value="18" />
+          <entry key="py" value="29" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="17" />
+          <entry key="IPNB" value="18" />
           <entry key="Ini" value="2" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="27" />
+          <entry key="Python" value="28" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="389" />
           <entry key="dummy" value="10" />
-          <entry key="py" value="9056" />
+          <entry key="py" value="14524" />
           <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Python" value="9445" />
+          <entry key="Python" value="14889" />
+          <entry key="Scratch" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -97,14 +87,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/will/my_crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="809">
+              <caret line="178" selection-start-line="178" selection-end-line="178" />
               <folding>
-                <marker date="1547161821864" expanded="true" signature="299:319" ph="..." />
-                <marker date="1547161821864" expanded="true" signature="967:3464" ph="..." />
+                <marker date="1547222196625" expanded="true" signature="5654:5655" ph="..." />
               </folding>
             </state>
           </provider>
@@ -114,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/will/chainparams.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -122,17 +111,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ibd/three/complete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="201" column="65" selection-start-line="201" selection-start-column="65" selection-end-line="201" selection-end-column="65" />
+            <state relative-caret-position="716">
+              <caret line="299" column="26" selection-start-line="299" selection-start-column="26" selection-end-line="299" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/will/test2.ipynb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/will/test_workbook.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="14" />
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/will/miniupnpc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -163,8 +161,10 @@
         <option value="$PROJECT_DIR$/will/miniupnpc.py" />
         <option value="$PROJECT_DIR$/will/tester.ipynb" />
         <option value="$PROJECT_DIR$/3. Executing the Version Handshake.ipynb" />
-        <option value="$PROJECT_DIR$/will/my_crawler.py" />
         <option value="$PROJECT_DIR$/will/chainparams.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+        <option value="$PROJECT_DIR$/will/test3.ipynb" />
+        <option value="$PROJECT_DIR$/will/my_crawler.py" />
         <option value="$PROJECT_DIR$/will/test2.ipynb" />
       </list>
     </option>
@@ -176,8 +176,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="width" value="2048" />
+    <option name="height" value="1152" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,6 +224,15 @@
               <item name="digital-cash" type="462c0819:PsiDirectoryNode" />
               <item name="pyMsgSpy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bitcoincorps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="bitcoincorps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -233,6 +242,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/will/Documents/src/bitcoincorps/will/my_crawler.py&#10;test*.py&#9;FILE&#9;file:///Users/will/Documents/src/bitcoincorps/develop/test.py&#10;test_can_send_pong_2&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -338,15 +348,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="2048" height="1152" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13675214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13908274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32809612" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,7 +372,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.49815157" weight="0.32951146" />
       <window_info anchor="right" id="Database" order="4" weight="0.32951146" />
-      <window_info anchor="right" id="Terminal" order="5" sideWeight="0.49815157" weight="0.4017094" />
+      <window_info anchor="right" id="Terminal" order="5" sideWeight="0.49815157" weight="0.4012961" />
       <window_info anchor="right" x="0" y="0" width="462" height="952" id="Documentation" order="6" sideWeight="0.5018484" side_tool="true" weight="0.40229312" />
     </layout>
   </component>
@@ -530,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/will/miniupnpc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3. Executing the Version Handshake.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -551,35 +554,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ibd/three/complete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="201" column="65" selection-start-line="201" selection-start-column="65" selection-end-line="201" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/will/chainparams.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ibd/three/complete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="299" column="26" selection-start-line="299" selection-start-column="26" selection-end-line="299" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-end-line="22" />
+          <folding>
+            <marker date="1547220364337" expanded="true" signature="48:54" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/will/test3.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/will/test_workbook.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/will/miniupnpc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/will/my_crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="809">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
           <folding>
-            <marker date="1547161821864" expanded="true" signature="299:319" ph="..." />
-            <marker date="1547161821864" expanded="true" signature="967:3464" ph="..." />
+            <marker date="1547222196625" expanded="true" signature="5654:5655" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/will/test2.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="14" />
         </state>
       </provider>
     </entry>
