@@ -19,11 +19,13 @@ PEER_PORT = 8333
 
 class Serializable:
 
+    # Base class for Serializing Messages
+
     @staticmethod
     def _to_bytes(msg, length=0, byteorder='little'):
         if isinstance(msg, bytes):
             return msg
-        if isinstance(msg, int):  # or isinstance(msg, bool):
+        elif isinstance(msg, int):  # or isinstance(msg, bool):
             if length == 0:
                 length = msg.bit_length()
             return msg.to_bytes(length, byteorder)
@@ -35,6 +37,8 @@ class Serializable:
 
 
 class Message(Serializable):
+
+    # Base Message class which can serialize payloads and generate headers
 
     def __init__(self, command, payload):
         self.magic = struct.pack('>I', chainparams.mainParams.StartString)
