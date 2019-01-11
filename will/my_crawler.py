@@ -48,6 +48,7 @@ class Message(Serializable):
         self.payload = payload
         self.checksum = None
         self.header = None
+        self.generate_header()
 
     def serialize_payload(self):
         if not isinstance(self.payload, bytes):
