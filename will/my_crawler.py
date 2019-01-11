@@ -19,7 +19,7 @@ PEER_PORT = 8333
 
 class Serializable:
 
-    # Base class for Serializing Messages
+    # Base class for Serializing objects. To be expanded to streams + ... in future
 
     @staticmethod
     def _serialize(msg, length=0, byteorder='little'):
