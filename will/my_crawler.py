@@ -165,7 +165,7 @@ class VersionMessage(Message):
         self.payload = msg
         return Message.to_bytes(self)
 
-    assigned_services = {hex(1): 'NODE_NETWORK',
+    avail_services = {hex(1): 'NODE_NETWORK',
                          hex(2): 'NODE_GETUTXO',
                          hex(4): 'NODE_BLOOM',
                          hex(8): 'NODE_WITNESS',
